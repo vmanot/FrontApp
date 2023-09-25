@@ -34,7 +34,7 @@ let package = Package(
             path: "Sources"
         ),
         .testTarget(
-            name: "Frontapp",
+            name: "FrontAppTests",
             dependencies: [
                 "FrontApp"
             ],
